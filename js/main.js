@@ -80,7 +80,7 @@ const sr = ScrollReveal({
 /*===== SCROLL HOME =====*/
 sr.reveal('.home__title', {})
 sr.reveal('.home__scroll', { delay: 100 })
-sr.reveal('.home__img', { delay: 300, origin: 'right' })
+sr.reveal('.home__img', { delay: 400, origin: 'right' })
 
 /*===== SCROLL ABOUT =====*/
 sr.reveal('.about__img', { delay: 300 })
