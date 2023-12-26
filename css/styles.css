@@ -1,5 +1,5 @@
 /*===== GOOGLE FONTS =====*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
 /*===== VARIABLES CSS =====*/
 :root {
@@ -20,7 +20,7 @@
   --first-color-lighten: #fffafa;
 
   /*===== Font and typography =====*/
-  --body-font: 'Montserrat', sans-serif;
+  --body-font: "Montserrat", sans-serif;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
   --h3-font-size: 1rem;
@@ -117,7 +117,7 @@ img {
 
 .section-title::after {
   position: absolute;
-  content: '';
+  content: "";
   width: 32px;
   height: 0.18rem;
   left: 0;
@@ -199,7 +199,7 @@ img {
 /*Active menu*/
 .active::after {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 0.18rem;
   left: 0;
@@ -288,12 +288,12 @@ img {
 
 .button-see:after,
 .button-see:before {
-  content: 'See Resume Online';
+  content: "See Resume Online";
 }
 
 .button-download:after,
 .button-download:before {
-  content: 'Download Resume';
+  content: "Download Resume";
 }
 
 .about__button a:before,
@@ -420,7 +420,7 @@ img {
 
 .about__tooltip::before {
   position: absolute;
-  content: '';
+  content: "";
   height: 8px;
   width: 8px;
   background-color: #ffffff;
@@ -522,7 +522,7 @@ img {
 }
 
 .education__rounder::before {
-  content: '';
+  content: "";
   position: absolute;
   transform: translate(-4px, -4px);
   width: 20px;
@@ -592,7 +592,7 @@ img {
 
 .swiper-button-prev:after,
 .swiper-button-next::after {
-  content: '' !important;
+  content: "" !important;
 }
 
 .swiper-certificates-icon {
@@ -966,4 +966,27 @@ img {
   .hello {
     padding: 20px 0;
   }
+}
+
+/* ===== POPUP =====*/
+.popup {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.popup-content {
+  position: relative;
+  top: 45%;
+  background-color: white;
+  z-index: 50;
+  margin: 0 auto;
+  padding: 20px;
+  border: 10px solid white;
+  border-radius: 5px;
+  width: 40%;
+}
+.show {
+  display: block;
 }
