@@ -102,6 +102,29 @@ img {
   display: block;
 }
 
+/* ===== POPUP =====*/
+.popup {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.popup-content {
+  position: relative;
+  top: 45%;
+  background-color: white;
+  z-index: 50;
+  margin: 0 auto;
+  padding: 20px;
+  border: 10px solid white;
+  border-radius: 5px;
+  width: 40%;
+}
+.show {
+  display: block;
+}
+
 /*===== CLASS CSS ===== */
 .section {
   padding: 3rem 0;
@@ -966,27 +989,4 @@ img {
   .hello {
     padding: 20px 0;
   }
-}
-
-/* ===== POPUP =====*/
-.popup {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgba(0, 0, 0, 0.4);
-}
-.popup-content {
-  position: relative;
-  top: 45%;
-  background-color: white;
-  z-index: 50;
-  margin: 0 auto;
-  padding: 20px;
-  border: 10px solid white;
-  border-radius: 5px;
-  width: 40%;
-}
-.show {
-  display: block;
 }
